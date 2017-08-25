@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E3DE561F4F427E00E4C740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3DE551F4F427E00E4C740 /* AppDelegate.swift */; };
+		55E3DE581F4F427E00E4C740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3DE571F4F427E00E4C740 /* ViewController.swift */; };
+		55E3DE5B1F4F427E00E4C740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E3DE591F4F427E00E4C740 /* Main.storyboard */; };
+		55E3DE5D1F4F427E00E4C740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E3DE5C1F4F427E00E4C740 /* Assets.xcassets */; };
+		55E3DE601F4F427E00E4C740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E3DE5E1F4F427E00E4C740 /* LaunchScreen.storyboard */; };
+		55E3DE6B1F4F427E00E4C740 /* iOS_Easy_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3DE6A1F4F427E00E4C740 /* iOS_Easy_TaskTests.swift */; };
+		55E3DE761F4F427E00E4C740 /* iOS_Easy_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3DE751F4F427E00E4C740 /* iOS_Easy_TaskUITests.swift */; };
+		55E3DE841F4F496600E4C740 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3DE831F4F496600E4C740 /* WeatherController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E3DE671F4F427E00E4C740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E3DE4A1F4F427E00E4C740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E3DE511F4F427E00E4C740;
+			remoteInfo = "iOS-Easy-Task";
+		};
+		55E3DE721F4F427E00E4C740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E3DE4A1F4F427E00E4C740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E3DE511F4F427E00E4C740;
+			remoteInfo = "iOS-Easy-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55E3DE521F4F427E00E4C740 /* iOS-Easy-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Easy-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E3DE551F4F427E00E4C740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55E3DE571F4F427E00E4C740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55E3DE5A1F4F427E00E4C740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E3DE5C1F4F427E00E4C740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E3DE5F1F4F427E00E4C740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E3DE611F4F427E00E4C740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E3DE661F4F427E00E4C740 /* iOS-Easy-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Easy-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E3DE6A1F4F427E00E4C740 /* iOS_Easy_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Easy_TaskTests.swift; sourceTree = "<group>"; };
+		55E3DE6C1F4F427E00E4C740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E3DE711F4F427E00E4C740 /* iOS-Easy-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Easy-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E3DE751F4F427E00E4C740 /* iOS_Easy_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Easy_TaskUITests.swift; sourceTree = "<group>"; };
+		55E3DE771F4F427E00E4C740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E3DE831F4F496600E4C740 /* WeatherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E3DE4F1F4F427E00E4C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E3DE631F4F427E00E4C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E3DE6E1F4F427E00E4C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E3DE491F4F427E00E4C740 = {
+			isa = PBXGroup;
+			children = (
+				55E3DE541F4F427E00E4C740 /* iOS-Easy-Task */,
+				55E3DE691F4F427E00E4C740 /* iOS-Easy-TaskTests */,
+				55E3DE741F4F427E00E4C740 /* iOS-Easy-TaskUITests */,
+				55E3DE531F4F427E00E4C740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E3DE531F4F427E00E4C740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E3DE521F4F427E00E4C740 /* iOS-Easy-Task.app */,
+				55E3DE661F4F427E00E4C740 /* iOS-Easy-TaskTests.xctest */,
+				55E3DE711F4F427E00E4C740 /* iOS-Easy-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E3DE541F4F427E00E4C740 /* iOS-Easy-Task */ = {
+			isa = PBXGroup;
+			children = (
+				55E3DE551F4F427E00E4C740 /* AppDelegate.swift */,
+				55E3DE571F4F427E00E4C740 /* ViewController.swift */,
+				55E3DE831F4F496600E4C740 /* WeatherController.swift */,
+				55E3DE591F4F427E00E4C740 /* Main.storyboard */,
+				55E3DE5C1F4F427E00E4C740 /* Assets.xcassets */,
+				55E3DE5E1F4F427E00E4C740 /* LaunchScreen.storyboard */,
+				55E3DE611F4F427E00E4C740 /* Info.plist */,
+			);
+			path = "iOS-Easy-Task";
+			sourceTree = "<group>";
+		};
+		55E3DE691F4F427E00E4C740 /* iOS-Easy-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E3DE6A1F4F427E00E4C740 /* iOS_Easy_TaskTests.swift */,
+				55E3DE6C1F4F427E00E4C740 /* Info.plist */,
+			);
+			path = "iOS-Easy-TaskTests";
+			sourceTree = "<group>";
+		};
+		55E3DE741F4F427E00E4C740 /* iOS-Easy-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E3DE751F4F427E00E4C740 /* iOS_Easy_TaskUITests.swift */,
+				55E3DE771F4F427E00E4C740 /* Info.plist */,
+			);
+			path = "iOS-Easy-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E3DE511F4F427E00E4C740 /* iOS-Easy-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E3DE7A1F4F427E00E4C740 /* Build configuration list for PBXNativeTarget "iOS-Easy-Task" */;
+			buildPhases = (
+				55E3DE4E1F4F427E00E4C740 /* Sources */,
+				55E3DE4F1F4F427E00E4C740 /* Frameworks */,
+				55E3DE501F4F427E00E4C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Easy-Task";
+			productName = "iOS-Easy-Task";
+			productReference = 55E3DE521F4F427E00E4C740 /* iOS-Easy-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E3DE651F4F427E00E4C740 /* iOS-Easy-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E3DE7D1F4F427E00E4C740 /* Build configuration list for PBXNativeTarget "iOS-Easy-TaskTests" */;
+			buildPhases = (
+				55E3DE621F4F427E00E4C740 /* Sources */,
+				55E3DE631F4F427E00E4C740 /* Frameworks */,
+				55E3DE641F4F427E00E4C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E3DE681F4F427E00E4C740 /* PBXTargetDependency */,
+			);
+			name = "iOS-Easy-TaskTests";
+			productName = "iOS-Easy-TaskTests";
+			productReference = 55E3DE661F4F427E00E4C740 /* iOS-Easy-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E3DE701F4F427E00E4C740 /* iOS-Easy-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E3DE801F4F427E00E4C740 /* Build configuration list for PBXNativeTarget "iOS-Easy-TaskUITests" */;
+			buildPhases = (
+				55E3DE6D1F4F427E00E4C740 /* Sources */,
+				55E3DE6E1F4F427E00E4C740 /* Frameworks */,
+				55E3DE6F1F4F427E00E4C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E3DE731F4F427E00E4C740 /* PBXTargetDependency */,
+			);
+			name = "iOS-Easy-TaskUITests";
+			productName = "iOS-Easy-TaskUITests";
+			productReference = 55E3DE711F4F427E00E4C740 /* iOS-Easy-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E3DE4A1F4F427E00E4C740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sc;
+				TargetAttributes = {
+					55E3DE511F4F427E00E4C740 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					55E3DE651F4F427E00E4C740 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E3DE511F4F427E00E4C740;
+					};
+					55E3DE701F4F427E00E4C740 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E3DE511F4F427E00E4C740;
+					};
+				};
+			};
+			buildConfigurationList = 55E3DE4D1F4F427E00E4C740 /* Build configuration list for PBXProject "iOS-Easy-Task" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E3DE491F4F427E00E4C740;
+			productRefGroup = 55E3DE531F4F427E00E4C740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E3DE511F4F427E00E4C740 /* iOS-Easy-Task */,
+				55E3DE651F4F427E00E4C740 /* iOS-Easy-TaskTests */,
+				55E3DE701F4F427E00E4C740 /* iOS-Easy-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E3DE501F4F427E00E4C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E3DE601F4F427E00E4C740 /* LaunchScreen.storyboard in Resources */,
+				55E3DE5D1F4F427E00E4C740 /* Assets.xcassets in Resources */,
+				55E3DE5B1F4F427E00E4C740 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E3DE641F4F427E00E4C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E3DE6F1F4F427E00E4C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E3DE4E1F4F427E00E4C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E3DE581F4F427E00E4C740 /* ViewController.swift in Sources */,
+				55E3DE561F4F427E00E4C740 /* AppDelegate.swift in Sources */,
+				55E3DE841F4F496600E4C740 /* WeatherController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E3DE621F4F427E00E4C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E3DE6B1F4F427E00E4C740 /* iOS_Easy_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E3DE6D1F4F427E00E4C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E3DE761F4F427E00E4C740 /* iOS_Easy_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E3DE681F4F427E00E4C740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E3DE511F4F427E00E4C740 /* iOS-Easy-Task */;
+			targetProxy = 55E3DE671F4F427E00E4C740 /* PBXContainerItemProxy */;
+		};
+		55E3DE731F4F427E00E4C740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E3DE511F4F427E00E4C740 /* iOS-Easy-Task */;
+			targetProxy = 55E3DE721F4F427E00E4C740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E3DE591F4F427E00E4C740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E3DE5A1F4F427E00E4C740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E3DE5E1F4F427E00E4C740 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E3DE5F1F4F427E00E4C740 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E3DE781F4F427E00E4C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E3DE791F4F427E00E4C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E3DE7B1F4F427E00E4C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Easy-Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sc.iOS-Easy-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		55E3DE7C1F4F427E00E4C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-Easy-Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sc.iOS-Easy-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		55E3DE7E1F4F427E00E4C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-Easy-TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sc.iOS-Easy-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Easy-Task.app/iOS-Easy-Task";
+			};
+			name = Debug;
+		};
+		55E3DE7F1F4F427E00E4C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-Easy-TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sc.iOS-Easy-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Easy-Task.app/iOS-Easy-Task";
+			};
+			name = Release;
+		};
+		55E3DE811F4F427E00E4C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iOS-Easy-TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sc.iOS-Easy-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS-Easy-Task";
+			};
+			name = Debug;
+		};
+		55E3DE821F4F427E00E4C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iOS-Easy-TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sc.iOS-Easy-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS-Easy-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E3DE4D1F4F427E00E4C740 /* Build configuration list for PBXProject "iOS-Easy-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E3DE781F4F427E00E4C740 /* Debug */,
+				55E3DE791F4F427E00E4C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E3DE7A1F4F427E00E4C740 /* Build configuration list for PBXNativeTarget "iOS-Easy-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E3DE7B1F4F427E00E4C740 /* Debug */,
+				55E3DE7C1F4F427E00E4C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55E3DE7D1F4F427E00E4C740 /* Build configuration list for PBXNativeTarget "iOS-Easy-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E3DE7E1F4F427E00E4C740 /* Debug */,
+				55E3DE7F1F4F427E00E4C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55E3DE801F4F427E00E4C740 /* Build configuration list for PBXNativeTarget "iOS-Easy-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E3DE811F4F427E00E4C740 /* Debug */,
+				55E3DE821F4F427E00E4C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E3DE4A1F4F427E00E4C740 /* Project object */;
+}
